@@ -1,0 +1,362 @@
+:root {
+    --subtitle-color: #2E2F42;
+    --text-color: #434455;
+    --title-font-family: "Roboto",
+        sans-serif;
+    --logo-font-family: "Raleway",
+        sans-serif;
+
+    button[type="button"] {
+        cursor: pointer;
+    }
+
+    .logo::before {
+        content: "WEB";
+        color: #4D5AE5;
+        font-family: var(--logo-font-family);
+        font-weight: 800;
+        font-size: 18px;
+    }
+
+    .logo {
+        font-family: var(--logo-font-family);
+        font-weight: 800;
+        color: #2E2F42;
+        line-height: 1, 31;
+        font-size: 18px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--title-font-family);
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+h4 {
+    font-weight: 500;
+}
+
+/* NAV STYLING */
+.nav-bar {
+    list-style: none;
+    font-weight: 500;
+    color: var(--subtitle-color);
+    display: inline-block;
+}
+
+.nav-list li {
+    list-style: none;
+    display: inline-block;
+    line-height: 1, 5;
+}
+
+[href$=".html"]:hover {
+    color: #404BBF;
+}
+
+[href$=".html"]:focus {
+    color: #404BBF;
+}
+
+/* PHONE AND EMAIL COLOR */
+.global-header>a {
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+.global-header>a:hover {
+    color: #404BBF;
+}
+
+.global-header>a:focus {
+    color: #404BBF;
+}
+
+/* Background color for hero section */
+.hero-section {
+    background-color: #2E2F42;
+    height: 600px;
+}
+
+.hero-section>h1 {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 182px;
+    font-size: 56px;
+    line-height: 3.75;
+}
+
+.global-header {
+    background-color: #E7E9FC;
+    border: 1px;
+    margin-bottom: -45px;
+}
+
+[href$=".html"] {
+    color: var(--subtitle-color);
+}
+
+.order-service {
+    font-family: var(--title-font-family);
+    font-weight: 500;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 835px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.order-service:hover {
+    background-color: #E7E9FC;
+    color: #4D5AE5;
+}
+
+.description-tab {
+    list-style: none;
+    line-height: 1.5;
+    display: inline-flex;
+}
+
+.description-tab>li>h4 {
+    color: var(--subtitle-color);
+    font-size: 20px;
+}
+
+.description-tab>li>p {
+    color: var(--text-color);
+}
+
+.what-we-do {
+    text-align: center;
+    color: var(--subtitle-color);
+    line-height: 2.5;
+    font-size: 36px;
+}
+
+.what-we-do-pics {
+    list-style: none;
+    text-align: center
+}
+
+.what-we-do-pics li {
+    display: inline-block;
+}
+
+.our-team {
+    text-align: center;
+    font-size: 36px;
+}
+
+.our-team-pics {
+    list-style: none;
+    line-height: 1.5;
+}
+
+.our-team-pics>li {
+    text-align: center;
+    display: inline-block;
+    padding-right: 24px;
+    align-items: center;
+}
+
+.address {
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #2E2F42;
+    height: 312px;
+    padding-top: 100px;
+}
+
+.logo-footer::before {
+    content: "WEB";
+    color: #4D5AE5;
+    font-family: var(--logo-font-family);
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.logo-footer {
+    font-family: var(--logo-font-family);
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.31;
+    font-size: 18px;
+}
+
+/* Portofolio only */
+.portofolio-buttons {
+    text-align: center;
+}
+
+.portofolio-buttons>li {
+    list-style: none;
+}
+
+/* Image list */
+
+.portofolio-list-one {
+    list-style: none;
+    display: flex;
+}
+
+.portofolio-list-one>li>h4 {
+    color: var(--subtitle-color);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.portofolio-list-one>li>p {
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+.portofolio-list-two {
+    list-style: none;
+    display: flex;
+}
+
+.portofolio-list-two>li>h4 {
+    color: var(--subtitle-color);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.portofolio-list-two>li>p {
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+.portofolio-list-three {
+    list-style: none;
+    display: flex;
+}
+
+.portofolio-list-three>li>h4 {
+    color: var(--subtitle-color);
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.portofolio-list-three>li>p {
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+.filters {
+    margin-top: 50px;
+}
+
+.all-button {
+    font-family: var(--title-font-family);
+    text-align: center;
+    background-color: #E7E9FC;
+    width: 69px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px;
+    padding: 12px, 24px;
+    color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.all-button:hover {
+    background-color: #404BBF;
+    color: #ffffff;
+}
+
+.web-button {
+    font-family: var(--title-font-family);
+    text-align: center;
+    background-color: #E7E9FC;
+    width: 116px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px;
+    padding: 12px, 24px;
+    color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.web-button:hover {
+    background-color: #404BBF;
+    color: #ffffff;
+}
+
+.app-button {
+    font-family: var(--title-font-family);
+    text-align: center;
+    background-color: #E7E9FC;
+    width: 78px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px;
+    padding: 12px, 24px;
+    color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.app-button:hover {
+    background-color: #404BBF;
+    color: #ffffff;
+}
+
+.design-button {
+    font-family: var(--title-font-family);
+    text-align: center;
+    background-color: #E7E9FC;
+    width: 101px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px;
+    padding: 12px, 24px;
+    color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.design-button:hover {
+    background-color: #404BBF;
+    color: #ffffff;
+}
+
+.marketing-button {
+    font-family: var(--title-font-family);
+    text-align: center;
+    background-color: #E7E9FC;
+    width: 126px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px;
+    padding: 12px, 24px;
+    color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.marketing-button:hover {
+    background-color: #404BBF;
+    color: #ffffff;
+}
